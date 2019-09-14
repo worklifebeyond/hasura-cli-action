@@ -7,4 +7,5 @@ jobs:
     steps:
     - name: Check hasura cli version
       uses: worklifebeyond/hasura-cli-action@master
-      args: version
+      with:
+        args: version
