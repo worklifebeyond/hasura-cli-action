@@ -5,8 +5,9 @@ jobs:
     name: Run Hasura cli
     runs-on: ubuntu-latest
     steps:
-    - name: Check hasura cli version
+    - name: Check hasura cli version and init
       uses: worklifebeyond/hasura-cli-action@master
       with:
         args: |
           version
+          init
