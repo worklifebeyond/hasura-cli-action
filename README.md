@@ -1,5 +1,7 @@
 # hasura-cli-action
 
+<a href="https://github.com/marketplace/actions/run-hasura-cli"><img src="https://img.shields.io/badge/hasura--cli--action-v1-green" /></a>
+
 A GitHub Action to run Hasura cli.
 
 Use cases:
