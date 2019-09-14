@@ -1,0 +1,9 @@
+name: 'Run Hasura cli'
+author: 'Hendra Permana <hynra@github.com>'
+description: 'Run Hasura command line interface'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'terminal'
+  color: 'orange'
